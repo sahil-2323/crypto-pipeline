@@ -1,0 +1,23 @@
+# Ignore local Python environment dependency folders
+bin/
+certifi/
+certifi-*.dist-info/
+charset_normalizer/
+charset_normalizer-*.dist-info/
+idna/
+idna-*.dist-info/
+python/
+requests/
+requests-*.dist-info/
+url_lib3/
+urllib3/
+urllib3-*.dist-info/
+
+# Ignore compiled binary files
+__pycache__/
+*.pyc
+*.mypyc*
+
+# Ignore local zip bundles and Excel templates
+*.zip
+*.xlsx
