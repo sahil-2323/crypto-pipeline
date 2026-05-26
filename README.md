@@ -31,7 +31,7 @@ To protect production workflows and maintain raw historical records, this projec
    │ raw_crypto_prices  │        │ transformed_       │
    │                    │        │ crypto_prices      │
    └────────────────────┘        └────────────────────┘
-
+``` 
 ## 🛠️ Tech Stack & Cloud Infrastructure
 
 * **Cloud Compute:** AWS Lambda (Serverless architecture running Python 3.12)
