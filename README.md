@@ -66,6 +66,17 @@ The analytical transformation pipeline processes the incoming API payload data a
 * **Temporal Auditing:** Injects automated, standardized UTC execution timestamps into every row vector for exact time-series trend tracking.
 * **Fault-Tolerant Error Handling:** Implements programmatic inline fallback operators (`or 0`) to prevent pipeline crashes from unexpected null data fields sent by the public API.
 
+  ---
+
+## 📈 Stage 3: Automated Executive Reporting Engine (`report.py`)
+
+To close the loop between data engineering and business intelligence, the pipeline includes a dedicated reporting script designed to automatically compile analytics for executive stakeholders:
+
+* **Automated Data Extraction:** Programmatically establishes secure database engine runtimes via `SQLAlchemy` to query time-series entries, filtering the top 10 digital assets by market capitalization.
+* **Corporate Dashboard Styling:** Generates custom spreadsheet layouts inside `openpyxl`, configuring distinct typographic hierarchies, grid alignments, explicit border boundaries, and customized corporate color themes (`#1A252C`).
+* **Dynamic Conditional Formatting:** Embeds native automated cell color triggers (soft green indicators for gains, soft red indicators for market drops) to dynamically visualize asset variations.
+* **Embedded Excel KPI Metrics:** Injects programmatic cell formulas (`=AVERAGE(F8:F17)`) directly into the spreadsheet layers to enable automated, macro-free calculating cards tracking average portfolio market trends.
+
 ## 📋 How to Run Locally / Replicate
 
 1. Clone the repository:
